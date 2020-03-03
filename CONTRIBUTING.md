@@ -7,7 +7,7 @@ Contribution and suggestions are welcome! Please ensure your pull request adhere
 * Please make an individual pull request for each suggestion.
 * Use the following format: ``[CLASS](LINK) - DESCRIPTION: [`example`](reprex/class.md)``
 * Keep descriptions short and simple.
-* Provide a [reprex](https://reprex.tidyverse.org/) that demonstrates usage of the class in a new file `class.md` in the `reprex/` directory, see below.
+* Provide a [reprex](https://reprex.tidyverse.org/) that demonstrates usage of the class in a new file `class.md` in the [`reprex/`](./reprex) directory, see below.
     * If you're editing the list on GitHub, it's okay to paste the reprex as a comment to the pull request.
 * Omit the full stop/period after the example.
 * Order projects alphabetically within each category.

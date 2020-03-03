@@ -61,7 +61,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 ## Books
 
-* [Advanced R](http://adv-r.had.co.nz) by Hadley Wickham
+* [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham
 
 
 ## Repositories

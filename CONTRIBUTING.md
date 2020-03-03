@@ -5,7 +5,7 @@ Contribution and suggestions are welcome! Please ensure your pull request adhere
 * This is an open source compilation, please check that the license of the software is suitable.
 * Please search previous suggestions before making a new one, as yours may be a duplicate.
 * Please make an individual pull request for each suggestion.
-* Use the following format: \[CLASS\]\(LINK\) - DESCRIPTION: [`example`](reprex/class.md)
+* Use the following format: ``\[CLASS\]\(LINK\) - DESCRIPTION: [`example`](reprex/class.md)``
 * Keep descriptions short and simple.
 * Provide a [reprex](https://reprex.tidyverse.org/) that demonstrates usage of the class in a new file `class.md` in the `reprex/` directory, see below.
     * If you're editing the list on GitHub, it's okay to paste the reprex as a comment to the pull request.

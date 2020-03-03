@@ -9,6 +9,7 @@ set_units(60, km / h) * set_units(5, min)
 #> 5 [km]
 set_units(50, km / h) / set_units(9.81, m / s^2)
 #> 1.415789 [s]
+
 set_units(NA, m)
 #> NA [m]
 ```

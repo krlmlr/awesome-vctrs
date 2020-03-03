@@ -15,6 +15,7 @@ hms(1:3 * 1e-6)
 #> 00:00:00.000003
 as_hms(Sys.time() - as.POSIXct(Sys.Date()))
 #> 09:05:06.343932
+
 hms(NA)
 #> NA
 ```

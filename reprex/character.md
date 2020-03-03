@@ -7,6 +7,7 @@
 #> [1] "that can be arbitrarily long"
 as.character(1:3)
 #> [1] "1" "2" "3"
+
 NA_character_
 #> [1] NA
 ```

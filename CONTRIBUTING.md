@@ -21,7 +21,7 @@ Thank you for your suggestions!
 
 A [reprex](https://reprex.tidyverse.org/) is a reproducible example that demonstrates the usage of a class.
 
-* Review [the units example](reprex/units.md) and others for inspiration.
+* Review [the units example](reprex/units.md) and [others](./reprex) for inspiration.
 * Open a new file.
 * Write code.
 * Copy the code to the clipboard.

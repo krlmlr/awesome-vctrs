@@ -54,6 +54,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 *Classes that wrap complex objects.*
 
 * [`blob`](https://blob.tidyverse.org/reference/blob.html) - Binary Large OBjects: [`blob[42 B]`](reprex/blob.md)
+* [`labelled`](https://haven.tidyverse.org/reference/labelled.html) - Labelled vectors: [`labelled(1, c("label of value 1" = 1))`](reprex/labelled.md)
 * [`mixed_units`](https://r-quantities.github.io/units/reference/mixed_units.html) - Numbers with different units: [`1 [m], 2 [kg]`](reprex/mixed_units.md)
 
 

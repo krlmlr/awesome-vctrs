@@ -16,6 +16,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
   * [Date and time](#date-and-time)
   * [Compound](#compound)
   * [Computing](#computing)
+  * [Internal](#internal)
 * [Resources](#resources)
   * [Blogs](#blogs)
   * [Books](#books)
@@ -66,6 +67,13 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 * [`ip_address`](https://davidchall.github.io/ipaddress/reference/ip_address.html) - IP address: [`192.168.0.1`](reprex/ip_address.md)
 * [`ip_interface`](https://davidchall.github.io/ipaddress/reference/ip_interface.html) - IP interface: [`192.168.0.1/24`](reprex/ip_interface.md)
 * [`ip_network`](https://davidchall.github.io/ipaddress/reference/ip_network.html) - IP network: [`192.168.0.0/24`](reprex/ip_network.md)
+
+
+## Internal
+
+*Classes implemented by packages for their own use*
+
+* [`tokenlist`](https://tidymodels.github.io/textrecipes/dev/articles/tokenlist.html) - List of tokens: [`[3 tokens]` with number of unique tokens](reprex/tokenlist.md)
 
 
 # Resources

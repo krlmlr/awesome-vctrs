@@ -39,6 +39,8 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes that wrap numbers.*
 
+* [`errors`](https://r-quantities.github.io/errors/reference/errors.html) - Numbers with uncertainty: [`1 ± 0.3`](reprex/errors.md)
+* [`quantities`](https://r-quantities.github.io/quantities/reference/quantities.html) - Numbers with units and uncertainty: [`1 ± 0.3 [m/s]`](reprex/quantities.md)
 * [`units`](https://r-quantities.github.io/units/reference/set_units.html) - Numbers with units: [`1 [m/s]`](reprex/units.md)
 
 

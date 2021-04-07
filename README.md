@@ -31,11 +31,11 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 *Classes provided by base R.*
 
 * [`character`](https://rdrr.io/r/base/character.html) - Strings: [`"a"`](reprex/character.md)
-* [`hexmode`](https://rdrr.io/r/base/hexmode.html) - Hexadecimal numbers: [`'2A'`](reprex/hexmode.md)
+* [`hexmode`](https://rdrr.io/r/base/hexmode.html) - Hexadecimal numbers: [`2A`](reprex/hexmode.md)
 * [`integer`](https://rdrr.io/r/base/integer.html) - 32-bit integers: [`1`](reprex/integer.md)
 * [`numeric`](https://rdrr.io/r/base/numeric.html) - Floating-point numbers: [`1.234567`](reprex/numeric.md)
 * [`numeric_version`](https://rdrr.io/r/base/numeric_version.html) - Software versions: [`'1.23.456'`](reprex/numeric_version.md)
-* [`octmode`](https://rdrr.io/r/base/octmode.html) - Octal numbers: [`'52'`](reprex/octmode.md)
+* [`octmode`](https://rdrr.io/r/base/octmode.html) - Octal numbers: [`52`](reprex/octmode.md)
 * [`POSIXct`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as days since epoch: [`2020-03-03 09:16:17 CET`](reprex/POSIXct.md)
 * [`POSIXlt`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as record of components: [`2020-03-03 09:16:17 CET`](reprex/POSIXlt.md)
 

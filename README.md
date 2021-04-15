@@ -16,6 +16,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
   - [Base](#base)
   - [Numbers](#numbers)
   - [Date and time](#date-and-time)
+  - [Strings](#strings)
   - [Compound](#compound)
   - [Computing](#computing)
   - [Internal](#internal)
@@ -45,6 +46,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 *Classes that wrap numbers.*
 
 * [`errors`](https://r-quantities.github.io/errors/reference/errors.html) - Numbers with uncertainty: [`1 ± 0.3`](reprex/errors.md)
+* [`num`](https://pillar.r-lib.org/reference/num) - Numbers with formatting: [`1.00`](reprex/num.md)
 * [`quantities`](https://r-quantities.github.io/quantities/reference/quantities.html) - Numbers with units and uncertainty: [`1 ± 0.3 [m/s]`](reprex/quantities.md)
 * [`units`](https://r-quantities.github.io/units/reference/set_units.html) - Numbers with units: [`1 [m/s]`](reprex/units.md)
 
@@ -59,6 +61,12 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 * [`hms`](https://hms.tidyverse.org/reference/hms.html) - Time of day: [`12:34:56`](reprex/hms.md)
 * [`time_point`](https://clock.r-lib.org/reference/index.html#section-time-points) - Variable precision points in time, with and without time zones: [`"2020-02-01 02:03:04.000005"`](reprex/time_point.md)
 * [`yr`](https://era.joeroe.io/reference/yr.html) - Year-based time scales: [`4.2 ka`](reprex/yr.md)
+
+## Strings
+
+*Classes that wrap character strings.*
+
+* [`char`](https://pillar.r-lib.org/reference/char) - Strings with minimum width and custom abbreviation: [`abc…xyz`](reprex/char.md)
 
 ## Compound
 

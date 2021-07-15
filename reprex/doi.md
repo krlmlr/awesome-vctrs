@@ -18,6 +18,7 @@ There's a `knit.print()` method, too:
 -   [`https://doi.org/10.1007/978-3-642-65840-2_5`](https://doi.org/10.1007/978-3-642-65840-2_5)
 
 ``` r
+library(biblids)
 # much easier to enter this way
 as_doi(c(
   # example DOIs are from https://www.doi.org/demos.html

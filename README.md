@@ -62,8 +62,8 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 * [`date_xx`](https://s-fleck.github.io/dint/reference/date_y.html) - Years, year-quarter, year-month and year-week: [`2020-Q1`](reprex/date_xx.md)
 * [`hms`](https://hms.tidyverse.org/reference/hms.html) - Time of day: [`12:34:56`](reprex/hms.md)
 * [`time_point`](https://clock.r-lib.org/reference/index.html#section-time-points) - Variable precision points in time, with and without time zones: [`"2020-02-01 02:03:04.000005"`](reprex/time_point.md)
-* [`yr`](https://era.joeroe.io/reference/yr.html) - Year-based time scales: [`4.2 ka`](reprex/yr.md)
 * [`yearquarter`, `yearmonth`, `yearweek`](https://tsibble.tidyverts.org/reference/year-month.html) - Year-quarter, year-month and year-week: [`2021 Oct`](reprex/yearxx.md)
+* [`yr`](https://era.joeroe.io/reference/yr.html) - Year-based time scales: [`4.2 ka`](reprex/yr.md)
 
 ## Strings
 

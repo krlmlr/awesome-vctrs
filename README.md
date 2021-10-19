@@ -60,7 +60,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 * [`aweek`](https://www.repidemicsconsortium.org/aweek) - Weeks that start on any day of the week: [`2020-W10-2`](reprex/aweek.md)
 * [`calendar`](https://clock.r-lib.org/reference/year_month_day.html) - Alternative representations of calendar dates, such as year-quarter-day or year-month-weekday: [`2019-02-Sun[2]`](reprex/calendar.md)
-* [`date_xx`](https://s-fleck.github.io/dint/reference/date_y.html) - Years, year-quarter, year-month and year-week: [`2020-Q1`](reprex/date_xx.md)
+* [`date_y`, `date_yq`, `date_ym`, `date_yw`](https://s-fleck.github.io/dint/reference/date_y.html) - Years, year-quarter, year-month and year-week: [`2020-Q1`](reprex/date_xx.md)
 * [`hms`](https://hms.tidyverse.org/reference/hms.html) - Time of day: [`12:34:56`](reprex/hms.md)
 * [`time_point`](https://clock.r-lib.org/reference/index.html#section-time-points) - Variable precision points in time, with and without time zones: [`"2020-02-01 02:03:04.000005"`](reprex/time_point.md)
 * [`yearquarter`, `yearmonth`, `yearweek`](https://tsibble.tidyverts.org/reference/year-month.html) - Year-quarter, year-month and year-week: [`2021 Oct`](reprex/yearxx.md)

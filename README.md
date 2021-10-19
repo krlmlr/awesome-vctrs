@@ -23,6 +23,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 - [Resources](#resources)
   - [Books](#books)
   - [Repositories](#repositories)
+  - [Blog posts](#blog-posts)
   - [Talks](#talks)
   - [License](#license)
 

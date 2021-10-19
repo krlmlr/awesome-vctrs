@@ -109,6 +109,12 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 * [vctrs](https://vctrs.r-lib.org/): simplifies creating vector classes
 
+
+## Blog posts
+
+* [Earo Wang: A practical guide to vctrs-powered S3 programming](https://blog.earo.me/2019/11/03/practical-guide-to-s3/): using vctrs for turtle graphics
+
+
 ## Talks
 
 * [Jesse Sadler, vctrs: Creating custom vector classes with the vctrs package at RStudio::conf2020](https://resources.rstudio.com/rstudio-conf-2020/vctrs-creating-custom-vector-classes-with-the-vctrs-package-jesse-sadler) with the companion tutorial [debvctrs](https://github.com/jessesadler/debvctrs)

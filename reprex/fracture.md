@@ -28,8 +28,11 @@ fracture(1 / (2:9), base_10 = TRUE, common_denom = TRUE, max_denom = 1000)
 fracture((1:9) / 3, mixed = TRUE)
 #> [1] "1/3"   "2/3"   "1"     "1 1/3" "1 2/3" "2"     "2 1/3" "2 2/3" "3"
 
+fracture(c(0.5, NA, 1.5))
+#> [1] "1/2" NA    "3/2"
+
 frac_style(fracture((1:9) / 3, mixed = TRUE))
 #> [1] "¹/₃"   "²/₃"   "1"     "1 ¹/₃" "1 ²/₃" "2"     "2 ¹/₃" "2 ²/₃" "3"
 ```
 
-<sup>Created on 2021-10-31 by the [reprex package](https://reprex.tidyverse.org) (v2.0.1)</sup>
+<sup>Created on 2021-11-02 by the [reprex package](https://reprex.tidyverse.org) (v2.0.1)</sup>

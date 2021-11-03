@@ -43,6 +43,9 @@ nom_ord(2) == 2
 #> [1] TRUE
 nom_ord(2) == "second"
 #> [1] TRUE
+
+nom_card(c(2, NA, 3))
+#> [1] "two"   NA      "three"
 ```
 
-<sup>Created on 2021-10-31 by the [reprex package](https://reprex.tidyverse.org) (v2.0.1)</sup>
+<sup>Created on 2021-11-02 by the [reprex package](https://reprex.tidyverse.org) (v2.0.1)</sup>

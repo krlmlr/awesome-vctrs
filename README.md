@@ -19,6 +19,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
   - [Strings](#strings)
   - [Compound](#compound)
   - [Computing](#computing)
+  - [Geospatial](#geospatial)
   - [Internal](#internal)
 - [Resources](#resources)
   - [Books](#books)
@@ -93,6 +94,14 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 * [`ip_interface`](https://davidchall.github.io/ipaddress/reference/ip_interface.html) - IP interface: [`192.168.0.1/24`](reprex/ip_interface.md)
 * [`ip_network`](https://davidchall.github.io/ipaddress/reference/ip_network.html) - IP network: [`192.168.0.0/24`](reprex/ip_network.md)
 
+## Geospatial
+
+*Classes related to geospatial*
+
+- [`sfc`](https://r-spatial.github.io/sf/reference/sfc.html), [`sf`](https://r-spatial.github.io/sf/reference/sf.html) - Geometry vector, data frame with geometry column
+- [`xy`](https://paleolimbot.github.io/wk/reference/xy.html), [`wkb`](https://paleolimbot.github.io/wk/reference/wkb.html), [`wkt`](https://paleolimbot.github.io/wk/reference/wkt.html), [`rct`](https://paleolimbot.github.io/wk/reference/rct.html), [`crc`](https://paleolimbot.github.io/wk/reference/crc.html) - Points, well-known binary geometry, well-known text geometry, rectangle, circle
+- [`geos_geometry`](https://paleolimbot.github.io/geos/reference/as_geos_geometry.html) - geometry vector as GEOS external pointers
+- [`s2_geography`](https://r-spatial.github.io/s2/reference/as_s2_geography.html), [`s2_cell`](https://r-spatial.github.io/s2/reference/s2_cell.html) - geometry vector of points on the sphere as external pointers to S2 objects, S2 cell IDs as 64-bit integers.
 
 ## Internal
 

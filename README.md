@@ -99,10 +99,14 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes related to geospatial*
 
-- [`sfc`](https://r-spatial.github.io/sf/reference/sfc.html), [`sf`](https://r-spatial.github.io/sf/reference/sf.html) - Geometry vector, data frame with geometry column
-- [`xy`](https://paleolimbot.github.io/wk/reference/xy.html), [`wkb`](https://paleolimbot.github.io/wk/reference/wkb.html), [`wkt`](https://paleolimbot.github.io/wk/reference/wkt.html), [`rct`](https://paleolimbot.github.io/wk/reference/rct.html), [`crc`](https://paleolimbot.github.io/wk/reference/crc.html) - Points, well-known binary geometry, well-known text geometry, rectangle, circle
-- [`geos_geometry`](https://paleolimbot.github.io/geos/reference/as_geos_geometry.html) - geometry vector as GEOS external pointers
-- [`s2_geography`](https://r-spatial.github.io/s2/reference/as_s2_geography.html), [`s2_cell`](https://r-spatial.github.io/s2/reference/s2_cell.html) - geometry vector of points on the sphere as external pointers to S2 objects, S2 cell IDs as 64-bit integers.
+- [`crc`](https://paleolimbot.github.io/wk/reference/crc.html) - Circle: [`[1 2, r = 0.5]`](reprex/wk_crc.md)
+- [`geos_geometry`](https://paleolimbot.github.io/geos/reference/as_geos_geometry.html) - Geometry vector as GEOS external pointers: [`<POINT (0 1)>`](reprex/geos_geometry.md)
+- [`rct`](https://paleolimbot.github.io/wk/reference/rct.html) - Rectangle:  [`[1 2 3 4]`](reprex/wk_rct.md)
+- [`s2_geography`](https://r-spatial.github.io/s2/reference/as_s2_geography.html), [`s2_cell`](https://r-spatial.github.io/s2/reference/s2_cell.html) - Geometry vector of points on the sphere as external pointers to S2 objects, S2 cell IDs as 64-bit integers: [`<POINT (0 1)>`](reprex/s2_geography.md)
+- [`sfc`](https://r-spatial.github.io/sf/reference/sfc.html) - Geometry vector in spatial data frames: [`POINT (0 1)`](reprex/sfc.md)
+- [`wkb`](https://paleolimbot.github.io/wk/reference/wkb.html) - Well-known binary geometry: [`<POINT (0 1)>`](reprex/wk_wkb.md)
+- [`wkt`](https://paleolimbot.github.io/wk/reference/wkt.html) - Well-known text geometry: [`POINT (0 1)`](reprex/wk_wkt.md)
+- [`xy`](https://paleolimbot.github.io/wk/reference/xy.html) - Points:  [`(1 4)`](reprex/wk_xy.md)
 
 ## Internal
 

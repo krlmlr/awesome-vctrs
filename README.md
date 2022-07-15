@@ -82,6 +82,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 * [`blob`](https://blob.tidyverse.org/reference/blob.html) - Binary Large OBjects: [`blob[42 B]`](reprex/blob.md)
 * [`doi`](https://subugoe.github.io/biblids/reference/doi.html) - Digital Object Identifiers (DOIs): [`10.1000/1`](reprex/doi.md)
+* [`intrval`](https://github.com/psolymos/intrval) - Relational operators for intervals: [`x %[]% c(a, b)`](reprex/intrval.md)
 * [`iv`](https://davisvaughan.github.io/ivs/) - Interval vectors: [`[2019-01-05, 2019-05-06) [2019-01-06, 2019-05-22)`](reprex/iv.md)
 * [`labelled`](https://haven.tidyverse.org/reference/labelled.html) - Labelled vectors: [`<Labelled double> 3` with labels](reprex/labelled.md)
 * [`mixed_units`](https://r-quantities.github.io/units/reference/mixed_units.html) - Numbers with different units: [`1 [m], 2 [kg]`](reprex/mixed_units.md)

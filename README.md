@@ -21,6 +21,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
   - [Computing](#computing)
   - [Geospatial](#geospatial)
   - [Internal](#internal)
+  - [Colours](#colours)
 - [Resources](#resources)
   - [Books](#books)
   - [Repositories](#repositories)
@@ -116,6 +117,12 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 * [`tokenlist`](https://tidymodels.github.io/textrecipes/dev/articles/tokenlist.html) - List of tokens: [`[3 tokens]` with number of unique tokens](reprex/tokenlist.md)
 
+## Colours
+
+*Classes related to colours*
+
+* [`palettes_colour`](https://mccarthy-m-g.github.io/palettes/reference/pal_colour.html) - Colours: $\color{red}{\bullet}$ [` #FF0000`](reprex/palettes.md)
+* [`palettes_palette`](https://mccarthy-m-g.github.io/palettes/reference/pal_palette.html) - Colour palettes: $\color{red}{\bullet}$ [` #FF0000`](reprex/palettes.md)
 
 # Resources
 

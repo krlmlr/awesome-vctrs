@@ -14,7 +14,9 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
   - [Contributing](#contributing)
   - [Table of Contents](#table-of-contents)
   - [Base](#base)
+    - [base](#base-1)
   - [Numbers](#numbers)
+    - [bignum](#bignum)
   - [Date and time](#date-and-time)
   - [Strings](#strings)
   - [Compound](#compound)
@@ -34,7 +36,9 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes provided by base R.*
 
-* [`base`](https://rdrr.io/r/#base)`::`[`character`](https://rdrr.io/r/base/character.html) - Strings: [`"a"`](reprex/character.md)
+### base
+
+* [`character`](https://rdrr.io/r/base/character.html) - Strings: [`"a"`](reprex/character.md)
 * [`hexmode`](https://rdrr.io/r/base/hexmode.html) - Hexadecimal numbers: [`2A`](reprex/hexmode.md)
 * [`integer`](https://rdrr.io/r/base/integer.html) - 32-bit integers: [`1`](reprex/integer.md)
 * [`numeric`](https://rdrr.io/r/base/numeric.html) - Floating-point numbers: [`1.234567`](reprex/numeric.md)
@@ -48,7 +52,9 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes that wrap numbers.*
 
-* [`bignum`](https://davidchall.github.io/bignum/)::[`bigfloat`](https://davidchall.github.io/bignum/reference/bigfloat.html) - High precision numbers: [`0.33333333333333333333333333333333333333333333333333`](reprex/bigfloat.md)
+### [bignum](https://davidchall.github.io/bignum/)
+
+* [`bigfloat`](https://davidchall.github.io/bignum/reference/bigfloat.html) - High precision numbers: [`0.33333333333333333333333333333333333333333333333333`](reprex/bigfloat.md)
 * [`biginteger`](https://davidchall.github.io/bignum/reference/biginteger.html) - Arbitrary precision integers: [`25852016738884976640000`](reprex/biginteger.md)
 * [`errors`](https://r-quantities.github.io/errors/reference/errors.html) - Numbers with uncertainty: [`1 ± 0.3`](reprex/errors.md)
 * [`fracture`](https://fracture.rossellhayes.com/reference/fracture.html) - Fractions: [`1/3`](reprex/fracture.md)

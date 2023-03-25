@@ -56,6 +56,9 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 * [`bigfloat`](https://davidchall.github.io/bignum/reference/bigfloat.html) - High precision numbers: [`0.33333333333333333333333333333333333333333333333333`](reprex/bigfloat.md)
 * [`biginteger`](https://davidchall.github.io/bignum/reference/biginteger.html) - Arbitrary precision integers: [`25852016738884976640000`](reprex/biginteger.md)
+* [`deb_decimal`](https://jessesadler.github.io/debkeepr/reference/deb_decimal.html) - Non-decimal currencies as `double` with `unit` and `bases` attributes: [`3.825`](reprex/deb_decimal.md)
+* [`deb_lsd`](https://jessesadler.github.io/debkeepr/reference/deb_lsd.html) - Tripartite non-decimal currencies: [`8:13s:4d`](reprex.deb_lsd.md)
+* [`deb_tetra`](https://jessesadler.github.io/debkeepr/reference/deb_tetra.html) - Tetrapartite non-decimal currencies: [`8:13s:4d:3f`](reprex.deb_tetra.md)
 * [`errors`](https://r-quantities.github.io/errors/reference/errors.html) - Numbers with uncertainty: [`1 ± 0.3`](reprex/errors.md)
 * [`fracture`](https://fracture.rossellhayes.com/reference/fracture.html) - Fractions: [`1/3`](reprex/fracture.md)
 * [`nombre`](https://nombre.rossellhayes.com/) - Number names: [`one`](reprex/nombre.md)

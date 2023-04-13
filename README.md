@@ -75,7 +75,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 * [`quantities`](https://r-quantities.github.io/quantities/reference/quantities.html) - Numbers with units and uncertainty: [`1 ± 0.3 [m/s]`](reprex/quantities.md)
 
-### [units](### [quantities](https://r-quantities.github.io/units/))
+### [units](https://r-quantities.github.io/units/)
 
 * [`units`](https://r-quantities.github.io/units/reference/set_units.html) - Numbers with units: [`1 [m/s]`](reprex/units.md)
 

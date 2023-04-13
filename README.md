@@ -114,6 +114,10 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes that wrap dates and times.*
 
+### [aweek](https://www.repidemicsconsortium.org/aweek/)
+
+* [`aweek`](https://www.repidemicsconsortium.org/aweek) - Weeks that start on any day of the week: [`2020-W10-2`](reprex/aweek.md)
+
 ### [base](https://rdrr.io/r/base/)
 
 * [`POSIXct`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as days since epoch: [`2020-03-03 09:16:17 CET`](reprex/POSIXct.md)
@@ -124,16 +128,16 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 * [`calendar`](https://clock.r-lib.org/reference/year_month_day.html) - Alternative representations of calendar dates, such as year-quarter-day or year-month-weekday: [`2019-02-Sun[2]`](reprex/calendar.md)
 * [`time_point`](https://clock.r-lib.org/reference/index.html#section-time-points) - Variable precision points in time, with and without time zones: [`"2020-02-01 02:03:04.000005"`](reprex/time_point.md)
 
-### [aweek](https://www.repidemicsconsortium.org/aweek/)
-
-* [`aweek`](https://www.repidemicsconsortium.org/aweek) - Weeks that start on any day of the week: [`2020-W10-2`](reprex/aweek.md)
-
 ### [dint](https://s-fleck.github.io/dint/)
 
 * [`date_y`](https://s-fleck.github.io/dint/reference/date_y.html) - Years: [`2020`](reprex/date_xx.md)
 * [`date_yq`](https://s-fleck.github.io/dint/reference/date_yq.html) - Year-quarter: [`2020-Q1`](reprex/date_xx.md)
 * [`date_ym`](https://s-fleck.github.io/dint/reference/date_ym.html) - Year-month: [`2013-M12`](reprex/date_xx.md)
 * [`date_yw`](https://s-fleck.github.io/dint/reference/date_yw.html) - Year-week: [`2013-W12`](reprex/date_xx.md)
+
+### [era](https://era.joeroe.io/)
+
+* [`yr`](https://era.joeroe.io/reference/yr.html) - Year-based time scales: [`4.2 ka`](reprex/yr.md)
 
 ### [hms](https://hms.tidyverse.org/)
 
@@ -145,13 +149,9 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 ### [tsibble](https://tsibble.tidyverts.org/)
 
-* [`yearquarter`](https://tsibble.tidyverts.org/reference/year-quarter.html) - Year-quarter: [`2016 Q1`](reprex/yearxx.md)
 * [`yearmonth`](https://tsibble.tidyverts.org/reference/year-month.html) - Year-month: [`2016 Jan`](reprex/yearxx.md)
+* [`yearquarter`](https://tsibble.tidyverts.org/reference/year-quarter.html) - Year-quarter: [`2016 Q1`](reprex/yearxx.md)
 * [`yearweek`](https://tsibble.tidyverts.org/reference/year-week.html) - Year-week: [`2021 W50`](reprex/yearxx.md)
-
-### [era](https://era.joeroe.io/)
-
-* [`yr`](https://era.joeroe.io/reference/yr.html) - Year-based time scales: [`4.2 ka`](reprex/yr.md)
 
 ## Strings
 
@@ -169,13 +169,21 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes that wrap complex objects.*
 
+### [biblids](https://maxheld.de/biblids/)
+
+* [`doi`](https://subugoe.github.io/biblids/reference/doi.html) - Digital Object Identifiers (DOIs): [`10.1000/1`](reprex/doi.md)
+
 ### [blob](https://blob.tidyverse.org/)
 
 * [`blob`](https://blob.tidyverse.org/reference/blob.html) - Binary Large OBjects: [`blob[42 B]`](reprex/blob.md)
 
-### [biblids](https://maxheld.de/biblids/)
+### [dialr](https://socialresearchcentre.github.io/dialr/)
 
-* [`doi`](https://subugoe.github.io/biblids/reference/doi.html) - Digital Object Identifiers (DOIs): [`10.1000/1`](reprex/doi.md)
+* [`phone`](https://socialresearchcentre.github.io/dialr/reference/dialr-phone.html) - Phone numbers parsed with Google's [libphonenumber](https://github.com/google/libphonenumber) for formatting and further processing: [`# Parsed phone numbers: 5 total, 4 successfully parsed`](reprex/phone.md)
+
+### [haven](https://haven.tidyverse.org/)
+
+* [`labelled`](https://haven.tidyverse.org/reference/labelled.html) - Labelled vectors: [`<Labelled double> 3` with labels](reprex/labelled.md)
 
 ### [intrval](https://github.com/psolymos/intrval/)
 
@@ -185,17 +193,9 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 * [`iv`](https://davisvaughan.github.io/ivs/) - Interval vectors: [`[2019-01-05, 2019-05-06) [2019-01-06, 2019-05-22)`](reprex/iv.md)
 
-### [haven](https://haven.tidyverse.org/)
-
-* [`labelled`](https://haven.tidyverse.org/reference/labelled.html) - Labelled vectors: [`<Labelled double> 3` with labels](reprex/labelled.md)
-
 ### [units](https://r-quantities.github.io/units/)
 
 * [`mixed_units`](https://r-quantities.github.io/units/reference/mixed_units.html) - Numbers with different units: [`1 [m], 2 [kg]`](reprex/mixed_units.md)
-
-### [dialr](https://socialresearchcentre.github.io/dialr/)
-
-* [`phone`](https://socialresearchcentre.github.io/dialr/reference/dialr-phone.html) - Phone numbers parsed with Google's [libphonenumber](https://github.com/google/libphonenumber) for formatting and further processing: [`# Parsed phone numbers: 5 total, 4 successfully parsed`](reprex/phone.md)
 
 ### [term](https://poissonconsulting.github.io/term/)
 
@@ -215,14 +215,6 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes related to geospatial*
 
-### [wk](https://paleolimbot.github.io/wk/)
-
-- [`crc`](https://paleolimbot.github.io/wk/reference/crc.html) - Circle: [`[1 2, r = 0.5]`](reprex/wk_crc.md)
-- [`wkb`](https://paleolimbot.github.io/wk/reference/wkb.html) - Well-known binary geometry: [`<POINT (0 1)>`](reprex/wk_wkb.md)
-- [`wkt`](https://paleolimbot.github.io/wk/reference/wkt.html) - Well-known text geometry: [`POINT (0 1)`](reprex/wk_wkt.md)
-- [`xy`](https://paleolimbot.github.io/wk/reference/xy.html) - Points:  [`(1 4)`](reprex/wk_xy.md)
-- [`rct`](https://paleolimbot.github.io/wk/reference/rct.html) - Rectangle:  [`[1 2 3 4]`](reprex/wk_rct.md)
-
 ### [geos](https://paleolimbot.github.io/geos/)
 
 - [`geos_geometry`](https://paleolimbot.github.io/geos/reference/as_geos_geometry.html) - Geometry vector as GEOS external pointers: [`<POINT (0 1)>`](reprex/geos_geometry.md)
@@ -235,6 +227,13 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 - [`sfc`](https://r-spatial.github.io/sf/reference/sfc.html) - Geometry vector in spatial data frames: [`POINT (0 1)`](reprex/sfc.md)
 
+### [wk](https://paleolimbot.github.io/wk/)
+
+- [`crc`](https://paleolimbot.github.io/wk/reference/crc.html) - Circle: [`[1 2, r = 0.5]`](reprex/wk_crc.md)
+- [`wkb`](https://paleolimbot.github.io/wk/reference/wkb.html) - Well-known binary geometry: [`<POINT (0 1)>`](reprex/wk_wkb.md)
+- [`wkt`](https://paleolimbot.github.io/wk/reference/wkt.html) - Well-known text geometry: [`POINT (0 1)`](reprex/wk_wkt.md)
+- [`xy`](https://paleolimbot.github.io/wk/reference/xy.html) - Points:  [`(1 4)`](reprex/wk_xy.md)
+- [`rct`](https://paleolimbot.github.io/wk/reference/rct.html) - Rectangle:  [`[1 2 3 4]`](reprex/wk_rct.md)
 
 ## Internal
 

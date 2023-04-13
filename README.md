@@ -114,7 +114,9 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 ### [tsibble](https://tsibble.tidyverts.org/)
 
-* [`yearquarter`, `yearmonth`, `yearweek`](https://tsibble.tidyverts.org/reference/year-month.html) - Year-quarter, year-month and year-week: [`2021 Oct`](reprex/yearxx.md)
+* [`yearquarter`](https://tsibble.tidyverts.org/reference/year-quarter.html) - Year-quarter: [`2016 Q1`](reprex/yearxx.md)
+* [`yearmonth`](https://tsibble.tidyverts.org/reference/year-month.html) - Year-month: [`2016 Jan`](reprex/yearxx.md)
+* [`yearweek`](https://tsibble.tidyverts.org/reference/year-week.html) - Year-week: [`2021 W50`](reprex/yearxx.md)
 
 ### [era](https://era.joeroe.io/)
 

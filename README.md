@@ -133,13 +133,36 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes that wrap complex objects.*
 
+### [blob](https://blob.tidyverse.org/)
+
 * [`blob`](https://blob.tidyverse.org/reference/blob.html) - Binary Large OBjects: [`blob[42 B]`](reprex/blob.md)
+
+### [biblids](https://maxheld.de/biblids/)
+
 * [`doi`](https://subugoe.github.io/biblids/reference/doi.html) - Digital Object Identifiers (DOIs): [`10.1000/1`](reprex/doi.md)
+
+### [intrval](https://github.com/psolymos/intrval)
+
 * [`intrval`](https://github.com/psolymos/intrval) - Relational operators for intervals: [`x %[]% c(a, b)`](reprex/intrval.md)
+
+### [ivs](https://davisvaughan.github.io/ivs/)
+
 * [`iv`](https://davisvaughan.github.io/ivs/) - Interval vectors: [`[2019-01-05, 2019-05-06) [2019-01-06, 2019-05-22)`](reprex/iv.md)
+
+### [haven](https://haven.tidyverse.org/)
+
 * [`labelled`](https://haven.tidyverse.org/reference/labelled.html) - Labelled vectors: [`<Labelled double> 3` with labels](reprex/labelled.md)
+
+### [units](https://r-quantities.github.io/units/)
+
 * [`mixed_units`](https://r-quantities.github.io/units/reference/mixed_units.html) - Numbers with different units: [`1 [m], 2 [kg]`](reprex/mixed_units.md)
+
+### [dialr](https://socialresearchcentre.github.io/dialr/)
+
 * [`phone`](https://socialresearchcentre.github.io/dialr/reference/dialr-phone.html) - Phone numbers parsed with Google's [libphonenumber](https://github.com/google/libphonenumber) for formatting and further processing: [`# Parsed phone numbers: 5 total, 4 successfully parsed`](reprex/phone.md)
+
+### [term](https://poissonconsulting.github.io/term/)
+
 * [`term`](https://poissonconsulting.github.io/term/) - Labels for values in numeric objects: [`beta[1,2]`](reprex/term.md)
 
 ## Computing
@@ -181,11 +204,15 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes implemented by packages for their own use*
 
+### [textrecipes](https://tidymodels.github.io/textrecipes/)
+
 * [`tokenlist`](https://tidymodels.github.io/textrecipes/dev/articles/tokenlist.html) - List of tokens: [`[3 tokens]` with number of unique tokens](reprex/tokenlist.md)
 
 ## Colours
 
 *Classes related to colours*
+
+### [palettes](https://mccarthy-m-g.github.io/palettes/)
 
 * [`palettes_colour`](https://mccarthy-m-g.github.io/palettes/reference/pal_colour.html) - Colours: $\color{red}{\bullet}$ [` #FF0000`](reprex/palettes.md)
 * [`palettes_palette`](https://mccarthy-m-g.github.io/palettes/reference/pal_palette.html) - Colour palettes: $\color{red}{\bullet}$ [` #FF0000`](reprex/palettes.md)

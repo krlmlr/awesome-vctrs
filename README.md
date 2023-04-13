@@ -39,11 +39,6 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 ### base
 
 * [`character`](https://rdrr.io/r/base/character.html) - Strings: [`"a"`](reprex/character.md)
-* [`hexmode`](https://rdrr.io/r/base/hexmode.html) - Hexadecimal numbers: [`2A`](reprex/hexmode.md)
-* [`integer`](https://rdrr.io/r/base/integer.html) - 32-bit integers: [`1`](reprex/integer.md)
-* [`numeric`](https://rdrr.io/r/base/numeric.html) - Floating-point numbers: [`1.234567`](reprex/numeric.md)
-* [`numeric_version`](https://rdrr.io/r/base/numeric_version.html) - Software versions: [`'1.23.456'`](reprex/numeric_version.md)
-* [`octmode`](https://rdrr.io/r/base/octmode.html) - Octal numbers: [`52`](reprex/octmode.md)
 * [`POSIXct`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as days since epoch: [`2020-03-03 09:16:17 CET`](reprex/POSIXct.md)
 * [`POSIXlt`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as record of components: [`2020-03-03 09:16:17 CET`](reprex/POSIXlt.md)
 
@@ -52,20 +47,48 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes that wrap numbers.*
 
+### [base](https://rdrr.io/r/base/)
+
+* [`hexmode`](https://rdrr.io/r/base/hexmode.html) - Hexadecimal numbers: [`2A`](reprex/hexmode.md)
+* [`integer`](https://rdrr.io/r/base/integer.html) - 32-bit integers: [`1`](reprex/integer.md)
+* [`numeric`](https://rdrr.io/r/base/numeric.html) - Floating-point numbers: [`1.234567`](reprex/numeric.md)
+* [`numeric_version`](https://rdrr.io/r/base/numeric_version.html) - Software versions: [`'1.23.456'`](reprex/numeric_version.md)
+* [`octmode`](https://rdrr.io/r/base/octmode.html) - Octal numbers: [`52`](reprex/octmode.md)
+
 ### [bignum](https://davidchall.github.io/bignum/)
 
 * [`bigfloat`](https://davidchall.github.io/bignum/reference/bigfloat.html) - High precision numbers: [`0.33333333333333333333333333333333333333333333333333`](reprex/bigfloat.md)
 * [`biginteger`](https://davidchall.github.io/bignum/reference/biginteger.html) - Arbitrary precision integers: [`25852016738884976640000`](reprex/biginteger.md)
+
+### [debkeepr](https://jessesadler.github.io/debkeepr/)
+
 * [`deb_decimal`](https://jessesadler.github.io/debkeepr/reference/deb_decimal.html) - Non-decimal currencies as `double` with `unit` and `bases` attributes: [`3.825`](reprex/deb_decimal.md)
 * [`deb_lsd`](https://jessesadler.github.io/debkeepr/reference/deb_lsd.html) - Tripartite non-decimal currencies: [`8:13s:4d`](reprex.deb_lsd.md)
 * [`deb_tetra`](https://jessesadler.github.io/debkeepr/reference/deb_tetra.html) - Tetrapartite non-decimal currencies: [`8:13s:4d:3f`](reprex.deb_tetra.md)
-* [`errors`](https://r-quantities.github.io/errors/reference/errors.html) - Numbers with uncertainty: [`1 ± 0.3`](reprex/errors.md)
-* [`fracture`](https://fracture.rossellhayes.com/reference/fracture.html) - Fractions: [`1/3`](reprex/fracture.md)
-* [`nombre`](https://nombre.rossellhayes.com/) - Number names: [`one`](reprex/nombre.md)
-* [`num`](https://pillar.r-lib.org/reference/num) - Numbers with formatting: [`1.00`](reprex/num.md)
-* [`quantities`](https://r-quantities.github.io/quantities/reference/quantities.html) - Numbers with units and uncertainty: [`1 ± 0.3 [m/s]`](reprex/quantities.md)
-* [`units`](https://r-quantities.github.io/units/reference/set_units.html) - Numbers with units: [`1 [m/s]`](reprex/units.md)
 
+### [errors](https://r-quantities.github.io/errors/)
+
+* [`errors`](https://r-quantities.github.io/errors/reference/errors.html) - Numbers with uncertainty: [`1 ± 0.3`](reprex/errors.md)
+
+### [fracture](https://fracture.rossellhayes.com/)
+
+* [`fracture`](https://fracture.rossellhayes.com/reference/fracture.html) - Fractions: [`1/3`](reprex/fracture.md)
+
+### [nombre](https://nombre.rossellhayes.com/)
+
+* [`nombre`](https://nombre.rossellhayes.com/) - Number names: [`one`](reprex/nombre.md)
+
+### [pillar](https://pillar.r-lib.org/)
+
+* [`num`](https://pillar.r-lib.org/reference/num) - Numbers with formatting: [`1.00`](reprex/num.md)
+
+### [quantities](https://r-quantities.github.io/quantities/)
+
+* [`quantities`](https://r-quantities.github.io/quantities/reference/quantities.html) - Numbers with units and uncertainty: [`1 ± 0.3 [m/s]`](reprex/quantities.md)
+
+### [units](### [quantities](https://r-quantities.github.io/units/))
+
+* [`units`](https://r-quantities.github.io/units/reference/set_units.html) - Numbers with units: [`1 [m/s]`](reprex/units.md)
 
 ## Date and time
 

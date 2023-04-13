@@ -38,7 +38,6 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 ### base
 
-* [`character`](https://rdrr.io/r/base/character.html) - Strings: [`"a"`](reprex/character.md)
 * [`POSIXct`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as days since epoch: [`2020-03-03 09:16:17 CET`](reprex/POSIXct.md)
 * [`POSIXlt`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as record of components: [`2020-03-03 09:16:17 CET`](reprex/POSIXlt.md)
 
@@ -106,6 +105,12 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 ## Strings
 
 *Classes that wrap character strings.*
+
+### [base](https://rdrr.io/r/base/)
+
+* [`character`](https://rdrr.io/r/base/character.html) - Strings: [`"a"`](reprex/character.md)
+
+### [pillar](https://pillar.r-lib.org/)
 
 * [`char`](https://pillar.r-lib.org/reference/char) - Strings with minimum width and custom abbreviation: [`abc…xyz`](reprex/char.md)
 

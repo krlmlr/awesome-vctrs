@@ -32,16 +32,6 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
   - [License](#license)
 
 
-## Base
-
-*Classes provided by base R.*
-
-### base
-
-* [`POSIXct`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as days since epoch: [`2020-03-03 09:16:17 CET`](reprex/POSIXct.md)
-* [`POSIXlt`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as record of components: [`2020-03-03 09:16:17 CET`](reprex/POSIXlt.md)
-
-
 ## Numbers
 
 *Classes that wrap numbers.*
@@ -93,13 +83,38 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 *Classes that wrap dates and times.*
 
-* [`aweek`](https://www.repidemicsconsortium.org/aweek) - Weeks that start on any day of the week: [`2020-W10-2`](reprex/aweek.md)
+### [base](https://rdrr.io/r/base/)
+
+* [`POSIXct`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as days since epoch: [`2020-03-03 09:16:17 CET`](reprex/POSIXct.md)
+* [`POSIXlt`](https://rdrr.io/r/base/as.POSIXlt.html) - Calendar time with time zone, stored as record of components: [`2020-03-03 09:16:17 CET`](reprex/POSIXlt.md)
+
+### [clock](https://clock.r-lib.org/)
+
 * [`calendar`](https://clock.r-lib.org/reference/year_month_day.html) - Alternative representations of calendar dates, such as year-quarter-day or year-month-weekday: [`2019-02-Sun[2]`](reprex/calendar.md)
-* [`date_y`, `date_yq`, `date_ym`, `date_yw`](https://s-fleck.github.io/dint/reference/date_y.html) - Years, year-quarter, year-month and year-week: [`2020-Q1`](reprex/date_xx.md)
-* [`hms`](https://hms.tidyverse.org/reference/hms.html) - Time of day: [`12:34:56`](reprex/hms.md)
-* [`term`](https://github.com/ir-sfsu/intermittent) - Represent ordinal academic semesters: [`20164`](reprex/intermittent.md)
 * [`time_point`](https://clock.r-lib.org/reference/index.html#section-time-points) - Variable precision points in time, with and without time zones: [`"2020-02-01 02:03:04.000005"`](reprex/time_point.md)
+
+### [aweek](https://www.repidemicsconsortium.org/aweek)
+
+* [`aweek`](https://www.repidemicsconsortium.org/aweek) - Weeks that start on any day of the week: [`2020-W10-2`](reprex/aweek.md)
+
+### [fleck](https://s-fleck.github.io/)
+
+* [`date_y`, `date_yq`, `date_ym`, `date_yw`](https://s-fleck.github.io/dint/reference/date_y.html) - Years, year-quarter, year-month and year-week: [`2020-Q1`](reprex/date_xx.md)
+
+### [hms](https://hms.tidyverse.org/)
+
+* [`hms`](https://hms.tidyverse.org/reference/hms.html) - Time of day: [`12:34:56`](reprex/hms.md)
+
+### [intermittent](https://github.com/ir-sfsu/intermittent)
+
+* [`term`](https://github.com/ir-sfsu/intermittent) - Represent ordinal academic semesters: [`20164`](reprex/intermittent.md)
+
+### [tsibble](https://tsibble.tidyverts.org/)
+
 * [`yearquarter`, `yearmonth`, `yearweek`](https://tsibble.tidyverts.org/reference/year-month.html) - Year-quarter, year-month and year-week: [`2021 Oct`](reprex/yearxx.md)
+
+### [era](https://era.joeroe.io/)
+
 * [`yr`](https://era.joeroe.io/reference/yr.html) - Year-based time scales: [`4.2 ka`](reprex/yr.md)
 
 ## Strings

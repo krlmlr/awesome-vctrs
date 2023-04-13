@@ -13,8 +13,6 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 - [Awesome VectoRs](#awesome-vectors)
   - [Contributing](#contributing)
   - [Table of Contents](#table-of-contents)
-  - [Base](#base)
-    - [base](#base-1)
   - [Numbers](#numbers)
     - [bignum](#bignum)
   - [Date and time](#date-and-time)

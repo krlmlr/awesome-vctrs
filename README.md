@@ -97,9 +97,12 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 
 * [`aweek`](https://www.repidemicsconsortium.org/aweek) - Weeks that start on any day of the week: [`2020-W10-2`](reprex/aweek.md)
 
-### [fleck](https://s-fleck.github.io/)
+### [dint](https://s-fleck.github.io/dint/)
 
-* [`date_y`, `date_yq`, `date_ym`, `date_yw`](https://s-fleck.github.io/dint/reference/date_y.html) - Years, year-quarter, year-month and year-week: [`2020-Q1`](reprex/date_xx.md)
+* [`date_y`](https://s-fleck.github.io/dint/reference/date_y.html) - Years: [`2020`](reprex/date_xx.md)
+* [`date_yq`](https://s-fleck.github.io/dint/reference/date_yq.html) - Year-quarter: [`2020-Q1`](reprex/date_xx.md)
+* [`date_ym`](https://s-fleck.github.io/dint/reference/date_ym.html) - Year-month: [`2013-M12`](reprex/date_xx.md)
+* [`date_yw`](https://s-fleck.github.io/dint/reference/date_yw.html) - Year-week: [`2013-W12`](reprex/date_xx.md)
 
 ### [hms](https://hms.tidyverse.org/)
 

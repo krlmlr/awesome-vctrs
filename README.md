@@ -43,6 +43,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
     - [intrval](#intrval)
     - [ivs](#ivs)
     - [term](#term)
+    - [tf](#tf)
     - [units](#units)
   - [Computing](#computing)
     - [ipaddress](#ipaddress)
@@ -200,6 +201,11 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 ### [term](https://poissonconsulting.github.io/term/)
 
 * [`term`](https://poissonconsulting.github.io/term/) - Labels for values in numeric objects: [`beta[1,2]`](reprex/term.md)
+
+### [tf](https://tidyfun.github.io/tf/)
+
+* [`tfd`](https://tidyfun.github.io/tf/reference/tfd.html) - Tidy functional data: [`(0.0, 2.84);(0.5, -0.51);(1.0, -0.51)`](reprex/tfd.md)
+* [`tfb`](https://tidyfun.github.io/tf/reference/tfb.html) - Tidy functional basis data: [`(0.0, 2.84);(0.5, -0.51);(1.0, -0.51)`](reprex/tfb.md)
 
 ## Computing
 

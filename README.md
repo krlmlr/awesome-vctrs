@@ -34,6 +34,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
     - [tsibble](#tsibble)
   - [Strings](#strings)
     - [base](#base)
+    - [charcuterie](#charcuterie)
     - [pillar](#pillar)
   - [Compound](#compound)
     - [biblids](#biblids)
@@ -161,6 +162,10 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 ### [base](https://rdrr.io/r/base/)
 
 * [`character`](https://rdrr.io/r/base/character.html) - Strings: [`"a"`](reprex/character.md)
+
+### [charcuterie](https://jonocarroll.github.io/charcuterie/) 
+
+* [`chars`](https://jonocarroll.github.io/charcuterie/articles/use_cases.html) - Strings as iterable sets of characters: [`"abc"` (class `chars`)](reprex/chars.md)
 
 ### [pillar](https://pillar.r-lib.org/)
 

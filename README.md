@@ -17,6 +17,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
     - [base](#base)
     - [bignum](#bignum)
     - [debkeepr](#debkeepr)
+    - [decimal](#decimal)
     - [errors](#errors)
     - [fracture](#fracture)
     - [nombre](#nombre)
@@ -87,6 +88,10 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 * [`deb_decimal`](https://jessesadler.github.io/debkeepr/reference/deb_decimal.html) - Non-decimal currencies as `double` with `unit` and `bases` attributes: [`3.825`](reprex/deb_decimal.md)
 * [`deb_lsd`](https://jessesadler.github.io/debkeepr/reference/deb_lsd.html) - Tripartite non-decimal currencies: [`8:13s:4d`](reprex.deb_lsd.md)
 * [`deb_tetra`](https://jessesadler.github.io/debkeepr/reference/deb_tetra.html) - Tetrapartite non-decimal currencies: [`8:13s:4d:3f`](reprex.deb_tetra.md)
+
+### [decimal](https://pedrobtz.github.io/decimal/)
+
+* [`decimal`](https://pedrobtz.github.io/decimal/reference/decimal.html) - Exact decimal numbers: [`0.1`](reprex/decimal.md)
 
 ### [errors](https://r-quantities.github.io/errors/)
 

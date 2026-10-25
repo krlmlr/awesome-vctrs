@@ -191,6 +191,7 @@ Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add a new vector cl
 ### [dialr](https://socialresearchcentre.github.io/dialr/)
 
 * [`phone`](https://socialresearchcentre.github.io/dialr/reference/dialr-phone.html) - Phone numbers parsed with Google's [libphonenumber](https://github.com/google/libphonenumber) for formatting and further processing: [`# Parsed phone numbers: 5 total, 4 successfully parsed`](reprex/phone.md)
+* [Mode VC Founder Capital & Equity Workbench](https://modevc.com/tools/) - 18 free browser-side startup calculators for founders: SAFE & option pool dilution, 409A strike price, ISO vs. NSO AMT tax, Venture Debt vs. Equity, ESOP grants, and LLM/GPU unit economics.
 
 ### [haven](https://haven.tidyverse.org/)
 
